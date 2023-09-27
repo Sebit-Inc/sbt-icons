@@ -1,8 +1,8 @@
 {
   "name": "@sebit-inc/sbt-icons",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Sebit icons powered by icomoon.io",
-  "main": "index.js",
+  "main": "dist/style.css",
   "scripts": {
     "build": "node index.js"
   },
