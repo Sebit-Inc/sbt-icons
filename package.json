@@ -4,7 +4,8 @@
   "description": "Sebit icons powered by icomoon.io",
   "main": "dist/style.css",
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "version": "node version.js.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +21,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@Sebit-Inc"
+  },
+  "devDependencies": {
+    "versiony": "^2.0.1"
   }
 }
