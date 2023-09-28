@@ -29,7 +29,7 @@ jobs:
           tag-prefix: ''
           minor-wording: 'add,Adds,new'
           major-wording: 'MAJOR,cut-major'
-          patch-wording: 'patch,fixes'     # Providing patch-wording will override commits # defaulting to a patch bump.
+          patch-wording: 'patch,fixes'     # Providing patch-wording will override commits, defaulting to a patch bump.
           rc-wording: 'RELEASE,alpha'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
