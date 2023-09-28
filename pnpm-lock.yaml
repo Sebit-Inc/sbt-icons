@@ -9,11 +9,6 @@ dependencies:
     specifier: ^1.3.2
     version: 1.3.2
 
-devDependencies:
-  versiony:
-    specifier: ^2.0.1
-    version: 2.0.1
-
 packages:
 
   /@types/node@20.7.0:
@@ -1057,11 +1052,6 @@ packages:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
     dev: false
-
-  /versiony@2.0.1:
-    resolution: {integrity: sha512-Ah5LPzNPd59ga2Hacv8FQj5MzduTBmlEyoYhQ/aWXG2HWuLfcnf7Kfz4Lf82At7BrO8OH+eHuJeDIuzvU+RdtA==}
-    engines: {node: '>= 6.0'}
-    dev: true
 
   /which-module@2.0.1:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}

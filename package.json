@@ -20,8 +20,5 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@Sebit-Inc"
-  },
-  "devDependencies": {
-    "versiony": "^2.0.1"
   }
 }
