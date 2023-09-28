@@ -39,7 +39,7 @@ const runCase = (name, fn) => new Promise((resolve, reject) => {
             forceOverride: true,
             visible: false,
             whenFinished (result) {
-                // you can get the absolute path of output directory via result.outputDir result
+                // you can get the absolute path of output directory via result.outputDir
             }
         });
     });
