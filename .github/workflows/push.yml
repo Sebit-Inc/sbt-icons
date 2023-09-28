@@ -12,15 +12,17 @@ jobs:
 
     steps:
       - name: "Checkout source code"
-        uses: "actions/checkout@v2"
+        uses: "actions/checkout@v3"
         with:
           ref: ${{ github.ref }}
       - name: "cat package.json"
         run: cat ./package.json
       - name: "Setup Node.js"
-        uses: "actions/setup-node@v1"
+        uses: "actions/setup-node@v3"
         with:
-          node-version: 12
+          node-version: 16
+      - name: "npm install"
+      - run: npm install
       - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
         with:
