@@ -5,7 +5,7 @@
   "main": "dist/style.css",
   "scripts": {
     "build": "node index.js",
-    "version": "node version.js.js"
+    "version": "node version.js"
   },
   "author": "",
   "license": "ISC",
