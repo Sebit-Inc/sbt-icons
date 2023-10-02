@@ -29,7 +29,7 @@ const runCase = (name, fn) => new Promise((resolve, reject) => {
 
 const changeStyleFile = (filePath) => {
     let fileData = fs.readFileSync(filePath  , 'utf-8');
-    fileData = fileData.replace('[class*=" sbt-icon-"] {', '[class*=" sbt-icon-"], [class*=" sbt-icon-"] * {'); // FIX: for edu player
+    fileData = fileData.replace('[class*=" sbt-icon-"] {', '[class*="sbt-icon-"], [class*="sbt-icon-"] * {'); // FIX: for edu player
     fs.writeFileSync(filePath, fileData);
 }
 
