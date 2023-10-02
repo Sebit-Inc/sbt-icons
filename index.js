@@ -47,6 +47,7 @@ const changeStyleFile = (filePath) => {
             whenFinished (result) {
                 changeStyleFile('./dist/style.css')
                 changeStyleFile('./dist/style.scss')
+                fs.renameSync('./dist/demo.html', './dist/index.html');
             }
         });
     });
