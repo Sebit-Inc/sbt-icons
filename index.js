@@ -27,6 +27,12 @@ const runCase = (name, fn) => new Promise((resolve, reject) => {
     fn(done);
 });
 
+const changeStyleFile = (filePath) => {
+    let fileData = fs.readFileSync(filePath  , 'utf-8');
+    fileData = fileData.replace('[class*=" sbt-icon-"] {', '[class*=" sbt-icon-"], [class*=" sbt-icon-"] * {'); // FIX: for edu player
+    fs.writeFileSync(filePath, fileData);
+}
+
 
 (async function() {
     const icons = getIcons();
@@ -39,7 +45,8 @@ const runCase = (name, fn) => new Promise((resolve, reject) => {
             forceOverride: true,
             visible: false,
             whenFinished (result) {
-                // you can get the absolute path of output directory via result.outputDir
+                changeStyleFile('./dist/style.css')
+                changeStyleFile('./dist/style.scss')
             }
         });
     });
