@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16">
+  <g id="Group_14872" data-name="Group 14872" transform="translate(0 0)">
+    <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="7.5" cy="8" rx="7.5" ry="8" transform="translate(0 0)" fill="#009e0f"/>
+    <g id="Icon_feather-box" data-name="Icon feather-box" transform="translate(-1.983 -0.927)">
+      <path id="Path_4269" data-name="Path 4269" d="M14.5,10.772V6.332a1.11,1.11,0,0,0-.556-.96l-3.889-2.22a1.112,1.112,0,0,0-1.111,0L5.056,5.372a1.11,1.11,0,0,0-.556.96v4.44a1.11,1.11,0,0,0,.556.96l3.889,2.22a1.112,1.112,0,0,0,1.111,0l3.889-2.22A1.11,1.11,0,0,0,14.5,10.772Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4270" data-name="Path 4270" d="M4.905,10.44l4.813,3.5,4.813-3.5" transform="translate(-0.218 -4.912)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4271" data-name="Path 4271" d="M18,23.606V18" transform="translate(-8.5 -9.448)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
