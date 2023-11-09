@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16">
-  <g id="Group_14872" data-name="Group 14872" transform="translate(0 0)">
-    <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="7.5" cy="8" rx="7.5" ry="8" transform="translate(0 0)" fill="#009e0f"/>
-    <g id="Icon_feather-box" data-name="Icon feather-box" transform="translate(-1.983 -0.927)">
-      <path id="Path_4269" data-name="Path 4269" d="M14.5,10.772V6.332a1.11,1.11,0,0,0-.556-.96l-3.889-2.22a1.112,1.112,0,0,0-1.111,0L5.056,5.372a1.11,1.11,0,0,0-.556.96v4.44a1.11,1.11,0,0,0,.556.96l3.889,2.22a1.112,1.112,0,0,0,1.111,0l3.889-2.22A1.11,1.11,0,0,0,14.5,10.772Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-      <path id="Path_4270" data-name="Path 4270" d="M4.905,10.44l4.813,3.5,4.813-3.5" transform="translate(-0.218 -4.912)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-      <path id="Path_4271" data-name="Path 4271" d="M18,23.606V18" transform="translate(-8.5 -9.448)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-    </g>
+<svg id="setted-exam-r" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16">
+  <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="7.5" cy="8" rx="7.5" ry="8" fill="#009e0f"/>
+  <g id="Icon_feather-box" data-name="Icon feather-box" transform="translate(-1.983 -0.927)">
+    <path id="Path_4269" data-name="Path 4269" d="M9.5,14.6a1.614,1.614,0,0,1-.805-.216L4.808,12.166A1.615,1.615,0,0,1,4,10.773V6.332a1.615,1.615,0,0,1,.806-1.393L8.7,2.718a1.612,1.612,0,0,1,1.609,0l3.887,2.219A1.615,1.615,0,0,1,15,6.331v4.441a1.615,1.615,0,0,1-.805,1.393L10.3,14.386A1.612,1.612,0,0,1,9.5,14.6Zm0-11.1a.613.613,0,0,0-.306.082L5.3,5.806a.611.611,0,0,0-.3.527v4.439a.611.611,0,0,0,.306.527l3.887,2.219a.62.62,0,0,0,.613,0L13.7,11.3a.611.611,0,0,0,.3-.526V6.332a.611.611,0,0,0-.306-.527L9.807,3.586A.615.615,0,0,0,9.5,3.5Z" fill="#fff"/>
+    <path id="Path_4270" data-name="Path 4270" d="M9.718,14.44a.5.5,0,0,1-.294-.1l-4.813-3.5a.5.5,0,1,1,.588-.809l4.519,3.286,4.519-3.286a.5.5,0,0,1,.588.809l-4.813,3.5A.5.5,0,0,1,9.718,14.44Z" transform="translate(-0.218 -4.912)" fill="#fff"/>
+    <path id="Path_4271" data-name="Path 4271" d="M18,24.106a.5.5,0,0,1-.5-.5V18a.5.5,0,0,1,1,0v5.606A.5.5,0,0,1,18,24.106Z" transform="translate(-8.5 -9.448)" fill="#fff"/>
   </g>
 </svg>
