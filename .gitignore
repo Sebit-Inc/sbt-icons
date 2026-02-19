@@ -12,7 +12,6 @@ node_modules
 dist-ssr
 *.local
 coverage
-dist
 
 # Editor directories and files
 .vscode/*
