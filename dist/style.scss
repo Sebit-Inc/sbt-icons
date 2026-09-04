@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nuuav1');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nuuav1#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?nuuav1') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?nuuav1') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?nuuav1##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bftt8g');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bftt8g#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bftt8g') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bftt8g') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bftt8g##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -600,6 +600,60 @@
   &:before {
     content: $sbt-icon-search;     
     color: #e1e2e6;
+  }
+}
+.sbt-icon-sebit .path1 {
+  &:before {
+    content: $sbt-icon-sebit-path1;  
+    color: rgb(51, 122, 183);
+  }
+}
+.sbt-icon-sebit .path2 {
+  &:before {
+    content: $sbt-icon-sebit-path2;  
+    margin-left: -2.7919921875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebit .path3 {
+  &:before {
+    content: $sbt-icon-sebit-path3;  
+    margin-left: -2.7919921875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebit .path4 {
+  &:before {
+    content: $sbt-icon-sebit-path4;  
+    margin-left: -2.7919921875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebit .path5 {
+  &:before {
+    content: $sbt-icon-sebit-path5;  
+    margin-left: -2.7919921875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebit .path6 {
+  &:before {
+    content: $sbt-icon-sebit-path6;  
+    margin-left: -2.7919921875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path1 {
+  &:before {
+    content: $sbt-icon-sebitai-path1;  
+    color: rgb(31, 77, 152);
+  }
+}
+.sbt-icon-sebitai .path2 {
+  &:before {
+    content: $sbt-icon-sebitai-path2;  
+    margin-left: -3.375em;  
+    color: rgb(0, 0, 0);
   }
 }
 .sbt-icon-sebit_ai_icon {
