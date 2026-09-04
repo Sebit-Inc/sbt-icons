@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bftt8g');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bftt8g#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bftt8g') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bftt8g') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bftt8g##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1rl55k');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1rl55k#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1rl55k') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1rl55k') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1rl55k##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -652,8 +652,233 @@
 .sbt-icon-sebitai .path2 {
   &:before {
     content: $sbt-icon-sebitai-path2;  
-    margin-left: -3.375em;  
+    margin-left: -3.23046875em;  
+    color: rgb(241, 141, 33);
+  }
+}
+.sbt-icon-sebitai .path3 {
+  &:before {
+    content: $sbt-icon-sebitai-path3;  
+    margin-left: -3.23046875em;  
     color: rgb(0, 0, 0);
+  }
+}
+.sbt-icon-sebitai .path4 {
+  &:before {
+    content: $sbt-icon-sebitai-path4;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.sbt-icon-sebitai .path5 {
+  &:before {
+    content: $sbt-icon-sebitai-path5;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.52;
+  }
+}
+.sbt-icon-sebitai .path6 {
+  &:before {
+    content: $sbt-icon-sebitai-path6;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.21;
+  }
+}
+.sbt-icon-sebitai .path7 {
+  &:before {
+    content: $sbt-icon-sebitai-path7;  
+    margin-left: -3.23046875em;  
+    color: rgb(236, 35, 72);
+  }
+}
+.sbt-icon-sebitai .path8 {
+  &:before {
+    content: $sbt-icon-sebitai-path8;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.sbt-icon-sebitai .path9 {
+  &:before {
+    content: $sbt-icon-sebitai-path9;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.46;
+  }
+}
+.sbt-icon-sebitai .path10 {
+  &:before {
+    content: $sbt-icon-sebitai-path10;  
+    margin-left: -3.23046875em;  
+    color: rgb(188, 34, 54);
+  }
+}
+.sbt-icon-sebitai .path11 {
+  &:before {
+    content: $sbt-icon-sebitai-path11;  
+    margin-left: -3.23046875em;  
+    color: rgb(6, 171, 142);
+  }
+}
+.sbt-icon-sebitai .path12 {
+  &:before {
+    content: $sbt-icon-sebitai-path12;  
+    margin-left: -3.23046875em;  
+    color: rgb(58, 123, 174);
+  }
+}
+.sbt-icon-sebitai .path13 {
+  &:before {
+    content: $sbt-icon-sebitai-path13;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.41;
+  }
+}
+.sbt-icon-sebitai .path14 {
+  &:before {
+    content: $sbt-icon-sebitai-path14;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path15 {
+  &:before {
+    content: $sbt-icon-sebitai-path15;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.5;
+  }
+}
+.sbt-icon-sebitai .path16 {
+  &:before {
+    content: $sbt-icon-sebitai-path16;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path17 {
+  &:before {
+    content: $sbt-icon-sebitai-path17;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path18 {
+  &:before {
+    content: $sbt-icon-sebitai-path18;  
+    margin-left: -3.23046875em;  
+    color: rgb(243, 143, 32);
+  }
+}
+.sbt-icon-sebitai .path19 {
+  &:before {
+    content: $sbt-icon-sebitai-path19;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.sbt-icon-sebitai .path20 {
+  &:before {
+    content: $sbt-icon-sebitai-path20;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.sbt-icon-sebitai .path21 {
+  &:before {
+    content: $sbt-icon-sebitai-path21;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.52;
+  }
+}
+.sbt-icon-sebitai .path22 {
+  &:before {
+    content: $sbt-icon-sebitai-path22;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.21;
+  }
+}
+.sbt-icon-sebitai .path23 {
+  &:before {
+    content: $sbt-icon-sebitai-path23;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path24 {
+  &:before {
+    content: $sbt-icon-sebitai-path24;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path25 {
+  &:before {
+    content: $sbt-icon-sebitai-path25;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path26 {
+  &:before {
+    content: $sbt-icon-sebitai-path26;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.sbt-icon-sebitai .path27 {
+  &:before {
+    content: $sbt-icon-sebitai-path27;  
+    margin-left: -3.23046875em;  
+    color: rgb(238, 30, 71);
+  }
+}
+.sbt-icon-sebitai .path28 {
+  &:before {
+    content: $sbt-icon-sebitai-path28;  
+    margin-left: -3.23046875em;  
+    color: rgb(188, 34, 53);
+  }
+}
+.sbt-icon-sebitai .path29 {
+  &:before {
+    content: $sbt-icon-sebitai-path29;  
+    margin-left: -3.23046875em;  
+    color: rgb(2, 171, 142);
+  }
+}
+.sbt-icon-sebitai .path30 {
+  &:before {
+    content: $sbt-icon-sebitai-path30;  
+    margin-left: -3.23046875em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.sbt-icon-sebitai .path31 {
+  &:before {
+    content: $sbt-icon-sebitai-path31;  
+    margin-left: -3.23046875em;  
+    color: rgb(57, 122, 175);
+  }
+}
+.sbt-icon-sebitai .path32 {
+  &:before {
+    content: $sbt-icon-sebitai-path32;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.41;
+  }
+}
+.sbt-icon-sebitai .path33 {
+  &:before {
+    content: $sbt-icon-sebitai-path33;  
+    margin-left: -3.23046875em;  
+    color: rgb(255, 255, 255);
   }
 }
 .sbt-icon-sebit_ai_icon {
