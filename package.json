@@ -1,6 +1,6 @@
 {
   "name": "@sebit-inc/sbt-icons",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Sebit icons powered by icomoon.io",
   "main": "dist/style.css",
   "scripts": {
