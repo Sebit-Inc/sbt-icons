@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1rl55k');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1rl55k#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1rl55k') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1rl55k') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1rl55k##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w4tx83');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w4tx83#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?w4tx83') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?w4tx83') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?w4tx83##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -202,6 +202,54 @@
 .sbt-icon-back-time {
   &:before {
     content: $sbt-icon-back-time; 
+  }
+}
+.sbt-icon-cift-sutun .path1 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path1;  
+    color: rgba(0, 0, 0, 0.08);
+  }
+}
+.sbt-icon-cift-sutun .path2 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path2;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-cift-sutun .path3 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path3;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-cift-sutun .path4 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path4;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-cift-sutun .path5 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path5;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-cift-sutun .path6 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path6;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-cift-sutun .path7 {
+  &:before {
+    content: $sbt-icon-cift-sutun-path7;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
   }
 }
 .sbt-icon-circle-check {
@@ -931,6 +979,33 @@
     content: $sbt-icon-svg-path3;  
     margin-left: -0.75em;  
     color: rgb(27, 50, 68);
+  }
+}
+.sbt-icon-tek-sutun .path1 {
+  &:before {
+    content: $sbt-icon-tek-sutun-path1;  
+    color: rgba(0, 0, 0, 0.08);
+  }
+}
+.sbt-icon-tek-sutun .path2 {
+  &:before {
+    content: $sbt-icon-tek-sutun-path2;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-tek-sutun .path3 {
+  &:before {
+    content: $sbt-icon-tek-sutun-path3;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
+  }
+}
+.sbt-icon-tek-sutun .path4 {
+  &:before {
+    content: $sbt-icon-tek-sutun-path4;  
+    margin-left: -0.904296875em;  
+    color: rgb(165, 168, 177);
   }
 }
 .sbt-icon-trash-v1 {
