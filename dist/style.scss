@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w4tx83');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w4tx83#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?w4tx83') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?w4tx83') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?w4tx83##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?madocm');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?madocm#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?madocm') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?madocm') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?madocm##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -252,9 +252,26 @@
     color: rgb(165, 168, 177);
   }
 }
+.sbt-icon-circle-check-1 {
+  &:before {
+    content: $sbt-icon-circle-check-1;     
+    color: #097013;
+  }
+}
 .sbt-icon-circle-check {
   &:before {
     content: $sbt-icon-circle-check; 
+  }
+}
+.sbt-icon-circle-slash {
+  &:before {
+    content: $sbt-icon-circle-slash; 
+  }
+}
+.sbt-icon-circle-x {
+  &:before {
+    content: $sbt-icon-circle-x;     
+    color: #b61f25;
   }
 }
 .sbt-icon-close-v2 {
