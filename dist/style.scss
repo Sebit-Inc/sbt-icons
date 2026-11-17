@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rrvs0f');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rrvs0f#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?rrvs0f') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?rrvs0f') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?rrvs0f##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5u0na3');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5u0na3#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5u0na3') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5u0na3') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5u0na3##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -256,6 +256,12 @@
   &:before {
     content: $sbt-icon-circle-check-1;     
     color: #097013;
+  }
+}
+.sbt-icon-circle-check-minus {
+  &:before {
+    content: $sbt-icon-circle-check-minus;     
+    color: #9fbd57;
   }
 }
 .sbt-icon-circle-check {
