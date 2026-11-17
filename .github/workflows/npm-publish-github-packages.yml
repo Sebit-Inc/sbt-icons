@@ -1,46 +1,46 @@
-name: Node.js Package
-
-on:
-    push:
-        branches:
-            - main
-
-jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v3
-            - uses: actions/setup-node@v3
-              with:
-                  node-version: 16
-
-    publish-gpr:
-        needs: build
-        runs-on: ubuntu-latest
-        permissions:
-            contents: write # Değişiklikleri commit etmek için yazma izni
-            packages: write
-        steps:
-            - uses: actions/checkout@v3
-            - uses: actions/setup-node@v3
-              with:
-                  node-version: 16
-                  registry-url: https://npm.pkg.github.com/
-                  scope: '@Sebit-Inc'
-            - run: npm install
-            - name: Commit any pending changes
-              run: |
-                  git config user.name "github-actions[bot]"
-                  git config user.email "github-actions[bot]@users.noreply.github.com"
-                  git add .
-                  git commit -m "ci: commit changes before version bump" || echo "No changes to commit"
-            - name: Bump version
-              run: |
-                  npm version patch -m "ci: bump version to %s [skip ci]"
-                  git push origin HEAD:main
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - run: npm run build
-            - run: npm publish
-              env:
-                  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#name: Node.js Package
+#
+#on:
+#    push:
+#        branches:
+#            - main
+#
+#jobs:
+#    build:
+#        runs-on: ubuntu-latest
+#        steps:
+#            - uses: actions/checkout@v3
+#            - uses: actions/setup-node@v3
+#              with:
+#                  node-version: 16
+#
+#    publish-gpr:
+#        needs: build
+#        runs-on: ubuntu-latest
+#        permissions:
+#            contents: write # Değişiklikleri commit etmek için yazma izni
+#            packages: write
+#        steps:
+#            - uses: actions/checkout@v3
+#            - uses: actions/setup-node@v3
+#              with:
+#                  node-version: 16
+#                  registry-url: https://npm.pkg.github.com/
+#                  scope: '@Sebit-Inc'
+#            - run: npm install
+#            - name: Commit any pending changes
+#              run: |
+#                  git config user.name "github-actions[bot]"
+#                  git config user.email "github-actions[bot]@users.noreply.github.com"
+#                  git add .
+#                  git commit -m "ci: commit changes before version bump" || echo "No changes to commit"
+#            - name: Bump version
+#              run: |
+#                  npm version patch -m "ci: bump version to %s [skip ci]"
+#                  git push origin HEAD:main
+#              env:
+#                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#            - run: npm run build
+#            - run: npm publish
+#              env:
+#                  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
